@@ -15,7 +15,7 @@
         <div class="container">
         <a class="navbar-brand" href="#">
             <img src="assets/images/logo.png" alt="logo_empresa">
-            
+            SKULL MOTOS
             </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -96,7 +96,7 @@
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
                       <div class="col-md-4">
-                        <a href="assets/paginas/base.html">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#pistonmodal">
                           <img src="assets/images/repuestos/piston_moto.jpg" class="img-fluid rounded-start" alt="...">  
                         </a>
                       </div>
@@ -112,7 +112,7 @@
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
                       <div class="col-md-4">
-                        <a href="assets/paginas/sombra.html">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#cilindromodal">
                            <img src="assets/images/repuestos/cilindro_moto.jpg" class="img-fluid rounded-start" alt="..."> 
                         </a>
 
@@ -131,7 +131,7 @@
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
                       <div class="col-md-4">
-                        <a href="#">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#embraguemodal">
                           <img src="assets/images/repuestos/EMBRAGUE.jpg" class="img-fluid rounded-start" alt="...">  
                         </a>
                       </div>
@@ -148,8 +148,8 @@
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
                       <div class="col-md-4">
-                        <a href="#">
-                          <img src="assets/images/repuestos/VIELA CB160F.jpg" class="img-fluid rounded-start" alt="...">  
+                        <a href="#" hredata-bs-toggle="modal" data-bs-target="#bielamodal">
+                          <img src="assets/images/repuestos/VIELACB160F.jpg" class="img-fluid rounded-start" alt="...">  
                         </a>
                       </div>
                       <div class="col-md-8">
@@ -161,13 +161,13 @@
                       </div>
                     </div>
                 </div>
-            <!-- ----------------------------------------------------------------------- -->
+                
                 <div class="row">
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
                           <div class="col-md-4">
-                            <a href="assets/paginas/base.html">
-                              <img src="assets/images/repuestos/bujia.webp" class="img-fluid rounded-start" alt="...">  
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#bujiamodal">
+                              <img src="assets/images/repuestos/bujia.jpg" class="img-fluid rounded-start" alt="...">  
                             </a>
                           </div>
                           <div class="col-md-8">
@@ -182,8 +182,8 @@
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
                           <div class="col-md-4">
-                            <a href="assets/paginas/sombra.html">
-                               <img src="assets/images/repuestos/ciguenal.webp" class="img-fluid rounded-start" alt="..."> 
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#ciguenalmodal">
+                               <img src="assets/images/repuestos/cigueñal.jpg" class="img-fluid rounded-start" alt="..."> 
                             </a>
     
                           </div>
@@ -202,7 +202,7 @@
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
                           <div class="col-md-4">
-                            <a href="assets/paginas/base.html">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#valvulasmodal">
                               <img src="assets/images/repuestos/VALVULAS.jpg" class="img-fluid rounded-start" alt="...">  
                             </a>
                           </div>
@@ -218,15 +218,15 @@
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
                           <div class="col-md-4">
-                            <a href="assets/paginas/sombra.html">
-                               <img src="assets/images/repuestos/culata.jpg" class="img-fluid rounded-start" alt="..."> 
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#culatamodal">
+                               <img src="assets/images/repuestos/culata.webp" class="img-fluid rounded-start" alt="..."> 
                             </a>
     
                           </div>
                           <div class="col-md-8">
                             <div class="card-body">
                               <h5 class="card-title">Culata</h5>
-                              <p class="card-text">Cilindro para SUZUKI DR 200</p>
+                              <p class="card-text">Culata para SUZUKI DR 200</p>
                               <p><strong>$ 390.000</strong></p>
                             </div>
                           </div>
@@ -234,11 +234,169 @@
                     </div>
                 </div> 
             </div>      
-        </div>           
-        
+        </div>            
     </section>
     <!-- /Tarjetas -->
 
+    <!-- Modal1 -->
+    <div class="modal fade" id="pistonmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cilindro HONDA CB190R</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="assets/images/repuestos/piston_moto.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atrás</button>
+            <a type="button" class="btn btn-primary" href="assets/pages/piston.html">¡Ver mas!</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--/modal1 -->
+
+    <!-- Modal2 -->
+    <div class="modal fade" id="cilindromodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cilindro HONDA CB190R</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="assets/images/repuestos/cilindro_moto.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atrás</button>
+            <a type="button" class="btn btn-primary" href="assets/pages/cilindro.html">¡Ver mas!</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--/modal2 -->
+
+    <!-- Modal3 -->
+    <div class="modal fade" id="embraguemodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Embrague HONDA XR125L</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="assets/images/repuestos/EMBRAGUE.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atrás</button>
+            <a type="button" class="btn btn-primary" href="assets/pages/embrague.html">¡Ver mas!</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--/modal3 -->
+
+    <!-- Modal4 -->
+    <div class="modal fade" id="bielamodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Biela para HONDA CB160F</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="assets/images/repuestos/VIELACB160F.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atrás</button>
+            <a type="button" class="btn btn-primary" href="assets/pages/biela.html">¡Ver mas!</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--/modal4-->
+
+    <!-- Modal5 -->
+    <div class="modal fade" id="bujiamodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Bujía para YAMAHA XTZ 125</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="assets/images/repuestos/bujia.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atrás</button>
+            <a type="button" class="btn btn-primary" href="assets/pages/bujia.html">¡Ver mas!</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--/modal5-->
+
+    <!-- Modal6 -->
+    <div class="modal fade" id="ciguenalmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cigüeñal para YAMAHA FZ 2.0</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="assets/images/repuestos/cigueñal.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atrás</button>
+            <a type="button" class="btn btn-primary" href="assets/pages/ciguenal.html">¡Ver mas!</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--/modal6-->
+
+    <!-- Modal7 -->
+    <div class="modal fade" id="valvulasmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Válvulas para SUZUKI GIXXER 250</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="assets/images/repuestos/VALVULAS.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atrás</button>
+            <a type="button" class="btn btn-primary" href="assets/pages/valvulas.html">¡Ver mas!</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--/modal7-->
+
+    <!-- Modal8 -->
+    <div class="modal fade" id="culatamodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Culata para SUZUKI DR 200</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="assets/images/repuestos/culata.webp" alt="">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atrás</button>
+            <a type="button" class="btn btn-primary" href="assets/pages/culata.html">¡Ver mas!</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--/modal8 -->
 
 
 
